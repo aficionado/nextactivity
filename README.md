@@ -32,14 +32,14 @@ Predicting Sean's next activity using [Sean J. Taylor](https://github.com/seanjt
 
 * [dataset](https://bigml.com/shared/dataset/pNCDHYn75BLRTtB9GF3ULZiJPcb)
 
-<img src="https://raw.github.com/aficionado/nextactivity/master/figures/dataset.png" alt="Dataset">
+<img src="https://raw.github.com/aficionado/nextactivity/master/images/dataset.png" alt="Dataset">
 
 * [model](https://bigml.com/shared/model/mZpNgH26YHG7NLLI82ujAyW5pdJ)
 
-<img src="https://raw.github.com/aficionado/nextactivity/master/figures/sunburst.png" alt="Sunburst">
+<img src="https://raw.github.com/aficionado/nextactivity/master/images/sunburst.png" alt="Sunburst">
 
 * [evaluation](https://bigml.com/shared/evaluation/zcwx4rk003IZxXQtUX52zPu8Sy9)
 
-<img src="https://raw.github.com/aficionado/nextactivity/master/figures/evaluation.png" alt="Evaluation">
+<img src="https://raw.github.com/aficionado/nextactivity/master/images/confusion_matrix.png" alt="Evaluation">
 
 
