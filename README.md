@@ -10,11 +10,16 @@ Predicting Sean's next activity using [Sean J. Taylor](https://github.com/seanjt
 **Note**: Isn't clear to me whether dates have been applied TZ conversion in the clean data or not. But that would be an easy fix.
 
 ## Analyzing the data
+
 1. Install bigmler:
 
         pip install bigmler
 
 2. Set up your BIGML_USERNAME and BIGML_API_KEY
+
+        export BIGML_USERNAME=francisco
+        export BIGML_API_KEY=3ff45044b4f4582903d90011a5fab140442e734c
+        export BIGML_AUTH="username=$BIGML_USERNAME;api_key=$BIGML_API_KEY"
 
 3. Run the script.
 
