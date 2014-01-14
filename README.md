@@ -11,8 +11,11 @@ Predicting Sean's next activity using [Sean J. Taylor](https://github.com/seanjt
 
 ## Analyzing the data
 1. Install bigmler:
+
         pip install bigmler
+
 2. Set up your BIGML_USERNAME and BIGML_API_KEY
+
 3. Run the script.
 
  		./next_activity.py --source basis/data/clean/states_10011230.csv  --balance --share
