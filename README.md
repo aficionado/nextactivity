@@ -7,7 +7,7 @@ Predicting Sean's next activity using [Sean J. Taylor](https://github.com/seanjt
 
 1. Fork, clone, or just [download](https://github.com/seanjtaylor/basis/blob/master/data/clean/states_10011230.csv) latest data from [Sean's repo](https://github.com/seanjtaylor/basis)
 
-**Note**: Isn't clear to me whether dates have been applied TZ conversion in the clean data or not. But that would be an easy fix.
+**Note**: It isn't clear to me whether timestamps have been applied TZ conversion in the clean data or not. But that would be an easy fix.
 
 ## Analyzing the data
 
@@ -21,9 +21,10 @@ Predicting Sean's next activity using [Sean J. Taylor](https://github.com/seanjt
         export BIGML_API_KEY=3ff45044b4f4582903d90011a5fab140442e734c
         export BIGML_AUTH="username=$BIGML_USERNAME;api_key=$BIGML_API_KEY"
 
-3. Run the script.
+3. Run the script, weighting the model (data is imbalanced), and sharing the
+   resources via private links.
 
- 		./next_activity.py --source basis/data/clean/states_10011230.csv  --balance --share
+ 		./next_activity.py --source basis/data/clean/states_10011230.csv --balance --share
 
 	    [2014-01-14 12:05:39] Creating source...
 	    [2014-01-14 12:05:43] Creating dataset...
